@@ -2,7 +2,14 @@
 *[IntelliJ Ultimate IDEA IJ-App06-Zuul Project](https://github.com/BNU-CO452/BlueJ-Apps)*
 
 ## Description (10 Marks)
-*The student should write a description of their specific game, including how the game can be won or lost*     
+
+Welcome to Dungeon Slayer where you will go from Rags to Riches. Welcome to the Kingdom of Inverness. You find yourself in the Kingdom of Aavak, the infamous kingdom known for its thievery and mischievousness. It is there that you hear of “the legend of the Phoenix ''. The legend where the former King of Aavak went on a conquest to defeat the majestic fiery Phoenix. After months of waiting, Aavak's king never returned and was presumed deceased. A struggle for the throne began and after months of fighting, murder and mischief. The High King of Inverness traveled to the town of Aavak. After his arrival he concluded to the townspeople of Aavak, that whoever was willing to fight the Phoenix and return the crown of Aavak, was promised the City of Aavak and the princesses hand in marriage. 
+
+This is where your journey starts, a race to wealth and riches.
+
+
+The game can be won by defeating all enemies you encounter as well as collecting the iterms. In contrast, the game can be lost by being killed against your enemies, failing to defeat the final boss and failing to collect the majority of the items. 
+
 
 This game is based on the classic console based game  *Colossal Cave Adventure* by Will Crowther (1975) see
   
@@ -15,16 +22,28 @@ This game is based on the classic console based game  *Colossal Cave Adventure* 
 ## User Requirements (10 Marks)
 *The student should replace the general user requirements below with a full set of specific user requirements of their chosen game* 
 
-You have been tasked with creating a new small version of Zuul to use as proof of concept.  
-For this purpose you game should contain a minimum of 8 locations.  
-The game prototype must include the following new features:-
-1. Add a Player object with status including 2 attributes such as energy level and a score.
-2. A set of Items that the player can pick up and use (minimum of 4)
-3. A Map object that contains a set of at least 8 interconnected locations
-4. An increased set of recognised commands (minimum of 2 additional commands)
-5. A clear single objective with a way of winning the game, and losing the game.
+Player objects with health and energy and a score.
+Items that can be picked up - Helmet, Shield, Boot, Chest Plate etc.
+Map - displays 25 locations and can be used as a guide.
 
-Students can work in teams of 2 for this application.
+Commands:
+You slash at the “” and do “” amount of damage.
+
+You have suffered”” amount of damage.
+
+You drink a potion and heal “”.
+
+You stab at the “” and do “” amount of damage.
+
+BASIC commands: directional commands, combat commands, inventory check.
+
+Objective: 
+
+WIN - kill all enemies and defeat the final boss whilst collecting all items. 
+
+LOSE - fail to kill all enemies and the final boss, fail to collect all the items and die from health damage.
+
+
 
 ## Zuul Locations (10 Marks)
 *The student should replace this simple diagram to show how all the locations in the new game connect*
