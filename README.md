@@ -94,3 +94,5 @@ These walkthroughs should include*
 
 ## Application Evaluation (10 Marks for 5 improvements)
 *An evaluation with list of at least 5 ways the game can be improved or extended.*
+
+START THE GAME
